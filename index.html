@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Localização</h1>
+        </div>
+
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="cep">Informe o Cep</label>
+                <input type="text" onkeyup="somenteNumeros(this);" id="cep" placeholder="Digite o Cep do endereço..."/>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+        
+            <div class="form-control">
+                <label for="rua">Rua</label>
+                <input type="text" id="rua"/>
+            </div>
+        
+            <div class="form-control">
+                <label for="bairro">Bairro</label>
+                <input type="text" id="bairro"/>
+            </div>
+        
+            <div class="inputs-div1">
+                <div class="label1">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade"/>
+                </div>
+
+                <div class="label2">
+                    <label for="uf">UF</label>
+                    <input type="text" id="uf"/>
+                </div>
+            </div>
+
+            <div class="inputs-div2">
+                <div class="label3">
+                    <label for="ibge">IBGE</label>
+                    <input type="text" id="ibge"/>
+                </div>
+
+                <div class="label4">
+                    <label for="ddd">DDD</label>
+                    <input type="text" id="ddd"/>
+                </div>
+            </div>
+            
+
+        </form>
+    </div>
+
+    <script src="https://kit.fontawesome.com/eb581f815f.js" crossorigin="anonymous"></script>
+    <script src="./scripts.js"></script>
+    <script>
+        function somenteNumeros(num) {
+            var er = /[^0-9.]/;
+            er.lastIndex = 0;
+            var campo = num;
+            if (er.test(campo.value)) {
+              campo.value = "";
+            }
+        }
+     </script>
+</body>
+</html>

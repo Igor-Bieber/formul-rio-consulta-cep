@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #ff0000 0%, #3e0202 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #fafafa;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px #690707;
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.header{
+    display: flex;
+    background-color: #eee;
+    padding: 20px;
+    justify-content: center;
+}
+
+.form{
+    padding: 20px;
+}
+
+.form-control{
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.form-control label {
+    display: flexbox;
+    margin-bottom: 15px;
+    width: 100px;
+}
+
+.form-control input{
+    border-radius: 10px;
+    display: block;
+    border: 2px solid #f0f0f0;
+    width: 100%;
+    padding: 10px;
+}
+
+.form-control i{
+    position: absolute;
+    top: 37px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-control small{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+/* Puxando o input dentro da div form-control que contem a classe success */
+.form-control.success input{
+    border-color: #168142;
+}
+
+/* Puxando o input dentro da div form-control que contem a classe error */
+.form-control.error input{
+    border-color: #a7170a ;
+}
+
+/* Puxando o I=icone fa-check-circle= icone de sucesso dentro da div
+form-control que contem a classe success*/
+.form-control.success i.fa-check-circle{
+    color: #168142;
+    visibility: visible;
+}
+
+/* Puxando o I=icone fa-exclamation-circle= icone de erro dentro da div
+form-control que contem a classe error*/
+.form-control.error i.fa-exclamation-circle{
+    color: #a7170a;
+    visibility: visible;
+}
+
+/* visible pra aparecer a mensagem de erro que até o momento está hidden*/
+.form-control.error small {
+    visibility: visible;
+    color: #a7170a ;
+}
+
+.inputs-div1{
+  display: flex;
+    justify-content: space-between;
+}
+
+.label1{
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+}
+
+.label1 input{
+    border-radius: 10px;
+    border: 2px solid #f0f0f0;
+    padding: 10px;
+}
+
+.label2{
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+}
+
+.label2 input{
+    border-radius: 10px;
+    border: 2px solid #f0f0f0;
+    padding: 10px;
+}
+
+.inputs-div1{
+  display: flex;
+    justify-content: space-between;
+}
+
+.label1{
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+}
+
+.label1 input{
+    border-radius: 10px;
+    border: 2px solid #f0f0f0;
+    padding: 10px;
+}
+
+.label2{
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+}
+
+.label2 input{
+    border-radius: 10px;
+    border: 2px solid #f0f0f0;
+    padding: 10px;
+}
+
+.inputs-div2{
+    display: flex;
+      justify-content: space-between;
+  }
+  
+  .label3{
+      display: flex;
+      width: 200px;
+      flex-direction: column;
+  }
+  
+  .label3 input{
+      border-radius: 10px;
+      border: 2px solid #f0f0f0;
+      padding: 10px;
+  }
+  
+  .label4{
+      display: flex;
+      width: 150px;
+      flex-direction: column;
+  }
+  
+  .label4 input{
+      border-radius: 10px;
+      border: 2px solid #f0f0f0;
+      padding: 10px;
+  }
+
