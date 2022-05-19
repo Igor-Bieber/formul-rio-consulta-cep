@@ -13,7 +13,7 @@ as informações retornadas em json, executando caso não houver erro, a funçã
 do formulário com os dados devoldidos em .json */
 const pesquisaCep = async() =>{
     const cepValue = cep.value;
-    const url = `http://viacep.com.br/ws/${cepValue}/json/`;
+    const url = `https://viacep.com.br/ws/${cepValue}/json/`;
     const dados = await fetch(url);
     const endereco = await dados.json();
     if (endereco.hasOwnProperty('erro')){
