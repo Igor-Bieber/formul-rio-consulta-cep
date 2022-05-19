@@ -1,24 +1,13 @@
 # formulário-consulta-cep
 
+![image](https://user-images.githubusercontent.com/103890069/169419131-b96bb20e-130e-4dd0-bcb9-cbab4f09cd64.png)
+
+> Projeto front-end de um formulário funcional e responsivo, que permite o usuário digitar um cep, faz a busca do cep em uma api e retorna para o usuário os dados do cep.
 
 
-> Projeto de página web de um programa que ensina crianças e pré adolecentes a codarem em diversas linguagens de programação e fazer desde projetos mais básicos até projetos um pouco mais complexos.
+## 🚀 Tecnologias utilizadas 
 
 
-## 🤝 Colaborador
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="#">
-        <img src="./.github/foto-perfil.jpg" width="100px;" alt="Foto do Igor Silva"/><br>
-        <sub>
-          <b>Igor Bieber da Silva</b>
-        </sub>
-      </a>
-    </td>
-    
-</table>
 
 ## 📝 Licença
 
