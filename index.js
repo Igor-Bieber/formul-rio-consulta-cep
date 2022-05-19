@@ -25,6 +25,7 @@ const pesquisaCep = async () => {
   } else {
     preencheForm(endereco);
     desabilitaInput();
+    setSuccessFor(cep);
   }
 };
 
